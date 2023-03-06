@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .container {
+      position: relative;
+      border: 1px solid black;
+    }
+
+    .link {
+      width: 10rem;
+      height: 10rem;
+      border-radius: 50%;
+      background-color: black;
+      color: white;
+      text-decoration: none; 
+    }
+    
+    .link_position {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      line-height: 10rem;
+    }
+
+    .img {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://images.samsung.com/kdp/static/pcd/refrigerators/bespoke/compare-intro-img-pc-v2.png" alt="#" class="img">
+    <a class="link_position link" href="#">비교하기</a>
+  </div>
+</body>
+</html>
